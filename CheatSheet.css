@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header li {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+header {
+    color: white;
+    background-color: limegreen;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: limegreen;
+    text-align: center;
+}
+
+table {
+    table-layout: auto;
+    border: 2px solid limegreen;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    color: black;
+}
+
+thead {
+    display: table-header-group;
+    color: white;
+    text-align: center;
+    background-color: limegreen;
+    border: 1px solid limegreen;
+}
+
+th {
+    padding-right: 50px;
+}
+
+td {
+    padding: 2px;
+    border-top: 1px solid limegreen;
+}
+
+p {
+    margin: auto;
+    max-width: 75%;
+}
+
+footer {
+    padding: 10px 0px 10px 0;
+    margin-top: 50px;
+    background-color: limegreen;
+    color: white;
+}
+
+.heading-tag {
+    width: 100px;
+}
+
+.tags {
+    background-color: lightgray;
+    font-family: 'space mono';
+    border-radius: 5px;
+    color: red;
+}
+
+.atributo {
+    background-color: lightgray;
+    font-family: 'space mono';
+    border-radius: 5px;
+    color: red;
+}
+
+.propriedades {
+    background-color: lightgray;
+    font-family: 'space mono';
+    border-radius: 5px;
+    color: red;
+}
