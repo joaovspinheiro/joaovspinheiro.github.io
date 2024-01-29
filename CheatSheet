@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html> 
+    <Head>
+        <title>Recursos WebDev</title>
+        <link rel="stylesheet" href="./Recursos/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </Head>
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a target='#html'>HTML</a></li>
+                    <li><a target='#css'>CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Seção HTML -->
+            <div id="html"> 
+                <H1 >HTML</H1>   
+                <!-- Primeira tabela: Recursos Básicos -->
+                <div>
+                    <h2>HTML: Recursos Básicos</h2>
+                    <p>Tags comumente utilizadas para adicionar diferentes elementos ao código.</p>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="heading-tag">Tag</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class=tags>< h1 > - < h6 ></span></td>
+                                <td>Tag utilizada para títulos de até 6 tamanhos e níveis de hierarquia diferentes.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< p ></span></td>
+                                <td>Tag utilizada para textos do parágrafo.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< em ></span></td>
+                                <td>Tag utilizada para colocar fragmentos de texto em itálico.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< strong ></span></td>
+                                <td>Tag utilizada para colocar fragmentos de texto em negrito.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< img ></span></td>
+                                <td>Tag utilizada para adicionar imagens. É uma tag que se fecha sozinha e necessita de um atributo <span class=atributo>src=</span> para indicar a fonte de onde a imagem deve ser buscada.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< video ></span></td>
+                                <td>Tag utilizada para adicionar videos. Necessita de um atributo <span class=atributo>src=</span> para indicar a fonte de onde o vídeo deve ser buscado.</td>  
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< a ></span></td>
+                                <td>Tag utilizada para adicionar um hiperlink à um elemento do código. Necessita um <span class=atributo>href=</span> ou <span class=atributo>target=</span> com um valor equivalente ao endereço da ação para funcionar.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< !-- -- ></span></td>
+                                <td>Tag utilizada para fazer comentários dentro do código. Esses comentários servem para ajudar a se localizar, mas não são renderizados pelo computador.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Segunda tabela: Semântica -->
+                <div>
+                    <h2>HTML: Semântica</h2>
+                    <p>Tags utilizadas para facilitar a navegação e o entendimento do código.</p>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="heading-tag">Tag</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class=tags>< header ></span></td>
+                                <td>Conteúdo que fica no topo da página.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< nav ></span></td>
+                                <td>Menus e outras listas/ferramentas que facilitem a navegação.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< main ></span></td>
+                                <td>Bloco com o conteúdo principal da página.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< footer ></span></td>
+                                <td>Última parte do site. Normalmente contém conteúdo de contato e afins.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< section ></span></td>
+                                <td>Tag usada para definir uma seção/capítulo com conteúdos em comum.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< article ></span></td>
+                                <td>Tag usada para mostrar onde está um conteúdo específico, que faça sentido em si mesmo.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< audio ></span></td>
+                                <td>Tag usada para identificar áudios. Ao adicionar áudio, também devem ser dados atributos como <span class=atributo>src=</span> para identificar a fonte do áudio, <span class=atributo>type=</span> para identificar o tipo de áudio e <span class=atributo>controls=</span> para identificar controles possíveis.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< embed ></span></td>
+                                <td> Uma tag menos utilizada que pode ser utilizada para adicionar videos, imagens, audios e gifs para um site, tanto de um arquivo local quanto de um proveniente de outro website. <strong>É uma tag defasada</strong>, que não deve ser prioridade. Também é uma tag que se fecha sozinha, como a de imagens.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Terceira tabela: Tabelas -->
+                <div>
+                    <h2>HTML: Tabelas</h2>
+                    <p>Tags utilizadas para criar e formatar tabelas</p>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="heading-tag">Tags e atributos</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class=tags>< table ></span></td>
+                                <td>Tag utilizada para comunicar o computador que ali existe uma tabela, amarrando todos os dados.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< thead ></span></td>
+                                <td>Tag utilizada para definir o cabeçalho ou elementos que encabeçam a tabela.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< tbody ></span></td>
+                                <td>Tag utilizada para amarrar a parte da tabela contendo as linhas de dados.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< tr ></span></td>
+                                <td>Tag utilizada para criar linhas dentro das tabelas.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< td ></span></td>
+                                <td>Tag utilizada para adicionar dados às tabelas, normalmente como colunas.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=tags>< tfoot ></span></td>
+                                <td>Tag utilizada para definir a linha final da tabela.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=atributo>colspan</span></td>
+                                <td>Atributo utilizado para expandir colunas.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=atributo>rowspan</span></td>
+                                <td>Atributo utilizado para expandir linhas.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Seção CSS -->
+            <div id="html">
+                <h1 id="CSS">CSS</h1>
+                <!-- Tabela CSS: Propriedades comuns -->
+                <div>
+                    <h2>HTML: Propriedades comuns</h2>
+                    <p>Propriedades comumente usadas para alterar o design de uma página da web.</p>
+                    <br>
+                    <table>
+                        <thead class="heading">
+                            <tr>
+                                <th class="heading-tag">Propriedade</th>
+                                <th>Descrição</th>
+                                <th>Possíveis atributos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class=propriedades>color</span></td>
+                                <td>Utilizada para definir a cor do texto do elemento.</td>
+                                <td>Nome de cores, HEX, RGB, HSL</td>
+                            </tr>
+                            <tr>
+                                <td><span class=propriedades>background-color</span></td>
+                                <td>Utilizada para definir a cor de fundo do elemento.</td>
+                                <td>Nome de cores, HEX, RGB, HSL</td>
+                            </tr>
+                            <tr>
+                                <td><span class=propriedades>font-family</span></td>
+                                <td>Utilizada para definir a fonte do elemento.</td>
+                                <td>Em geral, o nome das fontes. Mas preste atenção: se a fonte não estiver disponível localmente ou no arquivo do site, ela não será renderizada.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=propriedades>font-weight</span></td>
+                                <td>Utilizada para definir o peso da fonte.</td>
+                                <td>light, normal, bold ou valores de 0 a 1000, comumente aumentados de 100 em 100.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=propriedades>background-image</span></td>
+                                <td>Utilizada para atribuir uma imagem de fundo.</td>
+                                <td>Normalmente a url da imagem ou um caminho relativo.</td>
+                            </tr>
+                            <tr>
+                                <td><span class=propriedades>border</span></td>
+                                <td>Utilizada para criar contornos nos elementos.</td>
+                                <td>Podem ter diferentes atributos e valores, como widht, style e color. Pesquisar no MDN para saber mais.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <footer>
+        <h4>Continue pesquisando!</h4>
+        <p>Esses são apenas alguns dos recursos mais comuns para HTML e CSS. Existe uma infinidade de outros recursos a serem utilizados, testados e explorados. Acesse bibliotecas open-source como MDN para saber mais conforme dúvidas surgirem em seus projetos.</p>
+    </footer>
+</html>
